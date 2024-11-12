@@ -1,0 +1,46 @@
+header {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+header ul{
+    display: flex;
+    flex-direction:row ;
+    list-style: none
+}
+    
+header nav ul li a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: black 
+}
+nav ul li a:active{
+    background-color: red;
+    padding: 20px;
+}
+header img{
+    width: 250px;
+    height: 135px;
+    display: flex;
+}
+main div.afc{
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    height: 25px;
+    width: 60px;
+}
+footer{
+    background-color: red;
+    display: flex;
+}
+body{
+    background-color: red;
+}
+
